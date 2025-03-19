@@ -1,6 +1,9 @@
 package com.byone421.strategy.heima;
 
-///为中秋准备的促销活动B
+/**
+ * 具体策略B
+ * 为中秋准备的促销活动B
+ */
 public class StrategyB implements Strategy{
     @Override
     public void show() {

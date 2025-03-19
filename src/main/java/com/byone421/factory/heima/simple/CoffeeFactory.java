@@ -1,5 +1,9 @@
 package com.byone421.factory.heima.simple;
 
+
+/**
+ * 工厂
+ */
 public class CoffeeFactory {
     public Coffee createCoffee(String type) {
         Coffee coffee = null;

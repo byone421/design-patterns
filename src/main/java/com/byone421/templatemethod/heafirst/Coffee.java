@@ -1,5 +1,8 @@
 package com.byone421.templatemethod.heafirst;
 
+/**
+ * 具体的子类
+ */
 public class Coffee extends CoffeineBeverage {
     @Override
     void brew() {

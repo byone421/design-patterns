@@ -1,5 +1,9 @@
 package com.byone421.factory.heima.simple;
 
+/**
+ *
+ *  抽象产品
+ */
 public abstract class Coffee {
 
     public abstract String getName();

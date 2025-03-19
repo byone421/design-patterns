@@ -1,5 +1,9 @@
 package com.byone421.strategy.heima;
 
+
+/**
+ * 环境（Context）类
+ */
 public class SalesMan {
 
     private Strategy strategy;

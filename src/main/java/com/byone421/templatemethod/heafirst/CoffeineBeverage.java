@@ -4,10 +4,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * 角色：抽象类（Abstract Class）
+ */
 public abstract class CoffeineBeverage {
 
-    /**
-     * 准备配方 这是一个模板方法
+    /** 模板方法： 准备配方
      * 模板方法顶一个一个算法的步骤，并允许子类为一个或者多个步骤提供实现。
      */
     final void prepareRecipe(){
@@ -21,17 +23,33 @@ public abstract class CoffeineBeverage {
 
     }
 
+    /**
+     * 角色：普通方法
+     */
     void  boilWater(){
         System.out.println("boilWater");
     }
+    /**
+     * 角色：普通方法
+     */
     void  pourInCup(){
         System.out.println("pourInCup");
     }
 
+    /**
+     * 抽象方法
+     */
     abstract void brew();
 
+    /**
+     * 抽象方法
+     */
     abstract void addCondiments();
 
+    /**
+     * 角色：钩子方法
+     * @return
+     */
     public boolean customerWantsCondiments(){
         String answer = getUserInput();
         if(answer.toLowerCase().startsWith("y")){

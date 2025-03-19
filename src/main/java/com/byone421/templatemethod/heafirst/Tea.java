@@ -1,6 +1,9 @@
 package com.byone421.templatemethod.heafirst;
 
-public class Tea extends CoffeineBeverage{
+/**
+ * 具体的子类
+ */
+public class Tea extends CoffeineBeverage {
     @Override
     void brew() {
         System.out.println("Steeping the tea");
