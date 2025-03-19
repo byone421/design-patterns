@@ -111,3 +111,7 @@
 代码：com.byone421.templatemethod
 
 类图源文件：resources/drawio/模板方法.drawio
+
+# 单例模式
+
+详细请看：resources/md/单件模式.md

@@ -1,0 +1,76 @@
+<mxfile host="Electron" modified="2025-03-19T13:47:26.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.11 Chrome/114.0.5735.289 Electron/25.9.8 Safari/537.36" etag="VhP2--iOJyfXhBG13JKF" version="22.1.11" type="device">
+  <diagram name="第 1 页" id="kHibCsJc4294tQFN3clH">
+    <mxGraphModel dx="1005" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="10000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kwupcgz2W6ZuytT3eZMv-5" value="ConcreteCommand" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneLine=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="495" y="470" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="kwupcgz2W6ZuytT3eZMv-5" target="-3K28Fer6APiC0GXlQ0C-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" as="sourcePoint" />
+            <mxPoint x="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kwupcgz2W6ZuytT3eZMv-6" value="&amp;nbsp;receiver: Receiver" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kwupcgz2W6ZuytT3eZMv-5" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="kwupcgz2W6ZuytT3eZMv-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="kwupcgz2W6ZuytT3eZMv-5" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="kwupcgz2W6ZuytT3eZMv-8" value="&lt;p style=&quot;text-align: center; border-color: var(--border-color); margin: 4px 0px 0px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;&lt;i&gt;&amp;nbsp;&lt;/i&gt;execute()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;undo()&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kwupcgz2W6ZuytT3eZMv-5" vertex="1">
+          <mxGeometry y="60" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Command&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;execute()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;undo()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;rounded=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="190" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-2" value="Command为所有命令声明了一节接口。调用命令对象的execute()方法，就可以让接受者进行相关的动作。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="230" width="305" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-4" value="Receiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneLine=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="780" y="470" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="-3K28Fer6APiC0GXlQ0C-4">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-8" value="&lt;p style=&quot;text-align: left; border-color: var(--border-color); margin: 4px 0px 0px;&quot;&gt;&lt;i&gt;action()&lt;/i&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-3K28Fer6APiC0GXlQ0C-4">
+          <mxGeometry y="34" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-9" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=-0.022;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-3K28Fer6APiC0GXlQ0C-8" target="kwupcgz2W6ZuytT3eZMv-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="640" as="sourcePoint" />
+            <mxPoint x="700" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-10" value="Invoker" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneLine=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="270" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-12" value="&amp;nbsp;command: Command" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-3K28Fer6APiC0GXlQ0C-10">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="-3K28Fer6APiC0GXlQ0C-10">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-14" value="&lt;p style=&quot;text-align: left; border-color: var(--border-color); margin: 4px 0px 0px;&quot;&gt;&lt;i&gt;setCommand()&lt;/i&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-3K28Fer6APiC0GXlQ0C-10">
+          <mxGeometry y="60" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-15" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-3K28Fer6APiC0GXlQ0C-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="670" y="310" as="sourcePoint" />
+            <mxPoint x="665" y="513" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-16" value="接受者知道如何进行必要的工作，来处理请求。任何类都可以当接受者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="747.5" y="600" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-17" value="这个execute()方法会调用接受者的动作，以满足请求。public void execute({receiver.action()}" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="610" width="267" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-3K28Fer6APiC0GXlQ0C-18" value="调用者持有一个命令对象，并在某个时刻调用命令对象的execute()方法。讲请求付诸行动" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="230" width="260" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
