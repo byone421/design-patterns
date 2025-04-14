@@ -1,6 +1,7 @@
 package com.byone421.mediator.heima;
 
 /**
+ * 
  * @version v1.0
  * @ClassName: Tenant
  * @Description: 具体的同事角色类
