@@ -1,4 +1,4 @@
-package com.byone421.command;
+package com.byone421.command.heima;
 
 import java.util.Map;
 import java.util.function.BiConsumer;

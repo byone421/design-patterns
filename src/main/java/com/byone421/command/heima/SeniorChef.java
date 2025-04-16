@@ -1,4 +1,4 @@
-package com.byone421.command;
+package com.byone421.command.heima;
 
 public class SeniorChef {
 
