@@ -10,4 +10,16 @@ package com.byone421.templatemethod.zst;
  */
 public class TemplateMethodPattern {
 
+    public static void main(String[] args) {
+        // 父类名 对象名 = new 子类名();
+
+        Person student = new Student();
+        Person teacher = new Teacher();
+
+        student.TemplateMethod();
+
+        System.out.println("=========分割线=============");
+
+        teacher.TemplateMethod();
+    }
 }

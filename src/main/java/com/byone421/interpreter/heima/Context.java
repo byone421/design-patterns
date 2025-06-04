@@ -1,4 +1,4 @@
-package com.byone421.interpreter;
+package com.byone421.interpreter.heima;
 
 import java.util.HashMap;
 import java.util.Map;
